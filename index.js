@@ -92,8 +92,6 @@ Server.prototype.listen = function listen (callback) {
             return;
         }
 
-        var connectionOpen = true;
-
         try {
             var bbcItems = [];
             var skyItems = [];
